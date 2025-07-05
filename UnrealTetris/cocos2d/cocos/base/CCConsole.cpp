@@ -162,7 +162,7 @@ void log(const char * format, ...)
     buf[++nret] = '\0';
 
 #if CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID
-    __android_log_print(ANDROID_LOG_DEBUG, "cocos2d-x debug info", "%s", buf);
+    __android_log_print(ANDROID_LOG_DEBUG, "UnrealTetris", "%s", buf);
 
 #elif CC_TARGET_PLATFORM ==  CC_PLATFORM_WIN32
 
